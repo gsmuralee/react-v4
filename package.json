@@ -1,0 +1,22 @@
+{
+  "name": "react-intro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write \"src/**/*.{js, jsx}\"",
+    "lint": "eslint **/*.{js,jsx} --quiet",
+    "dev": "parcel src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "parcel-bundler": "^1.12.3",
+    "prettier": "^1.16.4"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^4.1.0"
+  }
+}
